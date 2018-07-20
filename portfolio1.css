@@ -28,7 +28,9 @@ footer{padding: 10px;
 .container{box-shadow:5px 10px 30px grey;}
 
 footer:hover{background:#eff1f4;}
-h3:hover{background:#addaea;}
+h3:hover{background:#eaccb4}
+h3{color:#f27c21;}
+
 
 .fa {
   padding: 10px;
