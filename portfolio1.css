@@ -1,12 +1,13 @@
-#button1{margin: -45px 200px 75px 1150px; }
-#third{margin: -290px 150px 75px 10px; color:#C94B30; font-size: 120%; box-shadow: 5px 10px 30px grey; background:#aef5fc;padding:10px }
+#button1{margin: -45px 50px 75px 240px; }
+#third{margin: 30px 150px 75px 10px; color:#C94B30; font-size: 120%; box-shadow: 5px 10px 30px grey; background:#aef5fc;padding:10px }
+
 #first1{text-decoration:underline dotted;}
 #button1:hover{background-color:orange; box-shadow: 5px 10px 40px grey;}
 ul{list-style-type:circle;}
 footer{padding: 10px;
 	background: #ddd;}
 
-	
+.container-fluid{box-shadow:5px 5px 5px grey;}	
 @keyframes myanime{
 	0%{background-color:#e8af4c;}
 	25%{background-color:#f4f751;}
