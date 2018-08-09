@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #button1{margin: -45px 50px 75px 250px; }
 #third{margin: 55px 150px 75px 50px; color:#C94B30; font-size: 120%; box-shadow: 5px 10px 30px grey; background:#aef5fc;padding:10px ; width:85%;}
 #first1{text-decoration:underline dotted; text-align: center;}
@@ -79,7 +79,7 @@ h3{color:#f27c21;}
 
 #myBtn:hover {
     background-color: #8DAA50; /* Add a dark-grey background on hover */
-=======
+
 #button1{margin: -45px 50px 75px 250px; }
 #third{margin: 55px 150px 75px 50px; color:#C94B30; font-size: 120%; box-shadow: 5px 10px 30px grey; background:#aef5fc;padding:10px ; width:85%;}
 #first1{text-decoration:underline dotted; text-align: center;}
@@ -160,5 +160,5 @@ h3{color:#f27c21;}
 
 #myBtn:hover {
     background-color: #8DAA50; /* Add a dark-grey background on hover */
->>>>>>> 45f02bff9bee3c3661c3df77bf8e045a95b24d9f
+
 }
