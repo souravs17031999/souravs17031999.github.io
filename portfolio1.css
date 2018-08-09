@@ -1,16 +1,12 @@
 #button1{margin: -45px 50px 75px 250px; }
-
 #third{margin: 55px 150px 75px 50px; color:#C94B30; font-size: 120%; box-shadow: 5px 10px 30px grey; background:#aef5fc;padding:10px ; width:85%;}
-
-
-#first1{text-decoration:underline dotted;}
+#first1{text-decoration:underline dotted; text-align: center;}
 #button1:hover{background-color:orange; box-shadow: 5px 10px 40px grey;}
 ul{list-style-type:circle;}
 footer{padding: 10px;
 	background: #ddd;}
 
-
-#second{ box-shadow:5px 5px 10px grey;width:84%;}		
+#second{ box-shadow:5px 5px 10px grey;width:84%;}	
 @keyframes myanime{
 	0%{background-color:#e8af4c;}
 	25%{background-color:#f4f751;}
@@ -22,6 +18,8 @@ footer{padding: 10px;
 	animation-name:myanime;
 	animation-duration:4s;
 	animation-iteration-count:infinite;
+	width:1519px;
+	height:80px;
 	
 }
 
@@ -30,7 +28,6 @@ footer{padding: 10px;
 footer:hover{background:#eff1f4;}
 h3:hover{background:#eaccb4}
 h3{color:#f27c21;}
-
 
 .fa {
   padding: 10px;
@@ -63,11 +60,22 @@ h3{color:#f27c21;}
 	background:#990f06;
 	color:white;
 }
-.fa-youtube {
-  background: #bb0000;
-  color: white;
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 23px; /* Increase font size */
 }
-.mygit:link{color:#ffcc99;}
-.mygit:hover{color:#ff9900;}
-.mygit:visited{color:#ccccb3
-;}
+
+#myBtn:hover {
+    background-color: #8DAA50; /* Add a dark-grey background on hover */
+}

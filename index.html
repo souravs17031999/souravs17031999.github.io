@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,6 +11,23 @@
 
 	<title>SOURAV KUMAR</title>
 	<link rel="stylesheet" href="portfolio1.css">
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+			document.getElementById("myBtn").style.display = "block";} 	
+		else {
+			document.getElementById("myBtn").style.display = "none";}
+		}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0; // For Safari
+		document.documentElement.scrollTop = 0;} // For Chrome, Firefox, IE and Opera 
+	</script>
   </head>
   <body background="M5OXzA0.jpg">
     <!-- Optional JavaScript -->
@@ -19,18 +36,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="logo-preview-57886ec1-6c2b-42e1-8097-80f2272903c1.jpg"><img src="logo-preview-57886ec1-6c2b-42e1-8097-80f2272903c1.jpg" width=200px height=80px></a>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>    
 				</button>
 			</div>
-		<div class=""collapse navbar-collapse" id="myNavbar"">	
+			<div class="collapse navbar-collapse" id="myNavbar"">
 			<ul class="nav navbar-nav">
 			<li class="active"><a href="index.html">Home</a></li>
 			<li><a href="moreinfo.html">More info</a></li>
@@ -38,15 +54,25 @@
 			</ul>
 			</div>
 		</div>
+		<br>
+		
 	</nav>
-	<div id="first1"><h1 align="center" class="text-info">MY PORTFOLIO</h1>
-	<br></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+		<div id="first1"><h1 align="center" class="text-info">MY PORTFOLIO</h1>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<br>
 	<div id="first2">
 	<h2 align="center" class="text-primary">SPACE FREAK , CODER AND A LEARNER ON THE GO</h2></div>
 	<br>
 	<div id="first3" class="text-success"><marquee onmouseover="this.stop()" onmouseout="this.start()">UPDATES : I JUST FINISHED MY UDACITY COURSE ON WEB APPLICATIONS !</marquee></div>
 	<br><br>
-	<div class="container-fluid">
+<div class="container-fluid">
 	<div class="row">
 	<div class="col-lg-6">
 		<div id="third">
@@ -56,8 +82,8 @@
 		I also love singing songs and playing badminton.</div>
 	</div>
 	<div class="col-lg-6">
-		<div id="second"><a href="https://www.google.co.in/imghp?hl=en&tab=wi" target="_blank"><img src="googleimageone-136421931932602601.jfif" class="img-fluid"></a></div>
-		<div><a href="0.jfif" class="btn btn-primary" id="button1" role="button" target="_blank">Click For Search</a></div>	
+		<div id="second"><a href="https://www.google.co.in/imghp?hl=en&tab=wi" target="_blank"><img src="googleimageone-136421931932602601.jfif" ></a></div>
+		<div><a href="0.jfif" class="btn btn-primary" id="button1" role="button">Click For Search</a></div>	
 	</div>
 	
 	</div>
@@ -82,7 +108,7 @@
 		<div class="container">
 			<h3>WEBSITES BUILD</h3>
 			<div class="list-group">
-			<a href="https://souravs17031999.github.io/" target="_blank" class="list-group-item active">MY PORTFOLIO</a>
+			<a href="#" class="list-group-item active">MY PORTFOLIO</a>
 			</div>
 		</div>
 		<div class="container">
@@ -129,6 +155,9 @@
 		
 	</div>
 	
+	
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 	<a href="#" class="fifth"><img src="download.png" width="60px" height="60px" align="right"></a>
 	<br><br>
 	<hr>
@@ -141,17 +170,17 @@
 		</div>
 		<br>
 		<div class="row">
-			<div class="col-xs-3 col-md-3">
+			<div class="col-sm-3">
 				<a href="https://www.quora.com/profile/Sourav-Kumar-799" class="fa fa-quora" target="_blank"></a>
 			</div>
-			<div class="col-xs-3 col-md-3">
+			<div class="col-sm-3">
 				<a href="https://www.linkedin.com/in/sourav-kumar-1839a4165/" target="_blank" class="fa fa-linkedin"></a>
 			</div>
-			<div class="col-xs-3 col-md-3">
-			<a href="https://www.youtube.com/channel/UCU1eJs_iW_fF1oC9B1vclBw" target="_blank" class="fa fa-youtube"></a>
+			<div class="col-sm-3">
+			<a href="https://www.facebook.com/saurav.kumar.3139" target="_blank" class="fa fa-facebook"></a>
 			</div>
-			<div class="col-xs-3 col-md-3">
-			<a href="https://plus.google.com/u/0/113251808834031593145" target="_blank" class="fa fa-google"></a>
+			<div class="col-sm-3">
+			<a href="https://plus.google.com/u/0/" target="_blank" class="fa fa-google"></a>
 			</div>			
 
 		</div>	
