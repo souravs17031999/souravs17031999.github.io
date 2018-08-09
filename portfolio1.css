@@ -19,8 +19,8 @@ footer{padding: 10px;
 	animation-name:myanime;
 	animation-duration:4s;
 	animation-iteration-count:infinite;
-	width:1519px;
-	height:80px;
+	width:auto;
+	height:auto;
 	
 }
 
