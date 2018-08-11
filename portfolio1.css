@@ -1,5 +1,5 @@
 #button1{margin: -45px 50px 75px 250px; }
-#third{margin: 55px 150px 75px 50px; color:#C94B30; font-size: 120%; box-shadow: 5px 10px 30px grey; background:#aef5fc;padding:10px ; width:85%;}
+#third{color:#C94B30; font-size: 120%; background:#aef5fc; padding:10px ; width:auto; height:auto;}
 #first1{text-decoration:underline dotted; text-align: center;}
 #button1:hover{background-color:orange; box-shadow: 5px 10px 40px grey;}
 ul{list-style-type:circle;}
