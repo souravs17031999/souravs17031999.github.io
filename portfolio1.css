@@ -26,6 +26,8 @@ footer{padding: 10px;
 }
 
 .container{box-shadow:5px 10px 30px grey;}
+.container1{margin: -15px 50px 10px 50px;box-shadow:5px 10px 30px grey;}
+
 
 footer:hover{background:#eff1f4;}
 h3:hover{background:#eaccb4}
