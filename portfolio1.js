@@ -21,5 +21,6 @@ return i;}
 
    // jQuery methods go here...
 
-
+$( document ).ready(function() {
 $(window).scroll(function(){if($(this).scrollTop()>200){$('#scrollTopBtn').stop().fadeIn()}else{$('#scrollTopBtn').stop().fadeOut()}});$('#scrollTopBtn').click(function(){$('html, body').animate({scrollTop:0},600);return!1});
+});
