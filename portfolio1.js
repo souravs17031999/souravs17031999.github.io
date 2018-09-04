@@ -24,3 +24,18 @@ return i;}
 $( document ).ready(function() {
 $(window).scroll(function(){if($(this).scrollTop()>200){$('#scrollTopBtn').stop().fadeIn()}else{$('#scrollTopBtn').stop().fadeOut()}});$('#scrollTopBtn').click(function(){$('html, body').animate({scrollTop:0},600);return!1});
 });
+
+$(document).ready(function(){
+  var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+	
+	
+	
+});
+});
