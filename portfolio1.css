@@ -83,6 +83,29 @@ h3{color:#f27c21;}
 #myBtn:hover {
     background-color: #8DAA50; /* Add a dark-grey background on hover */
 }
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("wallpaper2you_267128.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("laptop-3190194_1280.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("7243-01-low-poly-background-16x9-1.jpg");
+  min-height: 400px;
+}
 
 
 body, html {
