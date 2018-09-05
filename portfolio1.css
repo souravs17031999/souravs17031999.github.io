@@ -83,6 +83,7 @@ h3{color:#f27c21;}
 #myBtn:hover {
     background-color: #8DAA50; /* Add a dark-grey background on hover */
 }
+@media only screen and (min-width: 768px) {
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.9;
@@ -105,6 +106,31 @@ h3{color:#f27c21;}
 .bgimg-3 {
   background-image: url("wallpaper2you_267128.jpg");
   min-height: 100px;
+}
+}
+@media only screen and (max-width: 600px) {
+	.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("wallpaper2you_267128.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("hd-backgrounds-websites-350851-download-free-website-background-1920x1080-for-mobile-hd.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("wallpaper2you_267128.jpg");
+  min-height: 100px;
+}
+
 }
 
 
