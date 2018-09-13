@@ -108,6 +108,7 @@ h3{color:#f27c21;}
   background-image: url("wallpaper2you_267128.jpg");
   min-height: 100px;
 }
+.video_wrapper video{
 position:absolute;
 width:100%;
 height:auto;
@@ -135,6 +136,7 @@ height:auto;
   background-image: url("wallpaper2you_267128.jpg");
   min-height: 100px;
 }
+.video_wrapper video{
 position:fixed;
 width:100%;
 height:auto;
