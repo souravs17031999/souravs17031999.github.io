@@ -108,6 +108,10 @@ h3{color:#f27c21;}
   background-image: url("wallpaper2you_267128.jpg");
   min-height: 100px;
 }
+position:absolute;
+width:100%;
+height:auto;
+}
 }
 @media only screen and (max-width: 600px) {
 	.bgimg-1, .bgimg-2, .bgimg-3 {
@@ -131,7 +135,10 @@ h3{color:#f27c21;}
   background-image: url("wallpaper2you_267128.jpg");
   min-height: 100px;
 }
-
+position:fixed;
+width:100%;
+height:auto;
+}
 }
 
 
