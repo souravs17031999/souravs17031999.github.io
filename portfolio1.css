@@ -11,6 +11,21 @@ footer{padding: 10px;
 	max-width: 400px;}	
 
 
+	
+.caption{
+	
+  width: 100%;
+  text-align: center;
+  color: #000;}
+  
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}	
+	
 
 h2{background-color:#dee3ea;}
 .container{box-shadow:5px 10px 30px grey;}
