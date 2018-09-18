@@ -9,21 +9,7 @@ footer{padding: 10px;
 #second{width: auto;
     height: auto;
 	max-width: 400px;}	
-@keyframes myanime{
-	0%{background-color:#e8af4c;}
-	25%{background-color:#f4f751;}
-	50%{background-color:#f76150;}
-	100%{background-color:#71f765;}
-}
 
-#first1{
-	animation-name:myanime;
-	animation-duration:4s;
-	animation-iteration-count:infinite;
-	width:auto;
-	height:auto;
-	
-}
 h2{background-color:#dee3ea;}
 .container{box-shadow:5px 10px 30px grey;}
 .container1{margin: -15px 50px 10px 50px;box-shadow:5px 10px 30px grey;}
