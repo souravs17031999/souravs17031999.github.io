@@ -1,5 +1,5 @@
 #button1{margin: -45px 50px 75px 250px; }
-#third{color:#C94B30; font-size: 120%; background:#aef5fc; padding:10px ; width:auto; height:auto;}
+#third{color:#C94B30; font-size: 120%; background:#E3F3E3; padding:10px ; width:auto; height:auto;}
 #first1{text-decoration:underline dotted; text-align: center;}
 #button1:hover{background-color:orange; box-shadow: 5px 10px 40px grey;}
 ul{list-style-type:circle;}
@@ -117,7 +117,7 @@ width:100%;
 height:auto;
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	.bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.9;
