@@ -21,19 +21,25 @@
 	<link rel="stylesheet" href="portfolio1.css">
 	<script type="text/javascript" src="portfolio1.js"></script>
 	<style>
-#scrollTopBtn {
-    display: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    right: 40px;
-    z-index: 10;
-    bottom: 40px;
-    background-color: rgb(153, 153, 153);
-    color: #fff;
-    cursor: pointer;
-	
+	<style>
+.scrollUpButton {
+ display: none;
+ opacity: 0.6;
+ position: fixed;
+ bottom: 10px;
+ right: 10px;
+ display: none;
+ background: #000;
+ color: #fff;
+ font-size: 1.5em;
+ text-decoration: none;
+ padding: 5px 10px 5px 10px;
+}
+.scrollUpButton:hover, .scrollUpButton:focus {
+ outline: none;
+ text-decoration: none;
+ color: #fff;
+ opacity: 1;
 }
 
 	</style>
@@ -170,7 +176,7 @@
 	</div>
 	<div class="bgimg-3">
 	
-			<button id="scrollTopBtn" title="Scroll to Top" type="button" class="btn btn-success" style="display: block; opacity: 1;">▲</button>
+				<a href="#" class="scrollUpButton">&#9650</a>
 
 
 	<br><br>

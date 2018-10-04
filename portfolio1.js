@@ -21,19 +21,16 @@ return i;}
 
    // jQuery methods go here...
 
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 200) {
-        $('#scrollTopBtn').fadeIn();
-    } else {
-        $('#scrollTopBtn').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#scrollTopBtn").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
-
-});
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 100) {
+          $('.scrollUpButton').fadeIn();
+      } else {
+          $('.scrollUpButton').fadeOut();
+      }
+  });
+  $('.scrollUpButton').click(function(){
+      $("html, body").animate({ scrollTop: 0 }, 500);
+      return false;
+  });
+ });
