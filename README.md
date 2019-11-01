@@ -1,9 +1,7 @@
-# souravs17031999.github.io
-portfolio website
+# flightx
+This Project is a attempt to create a template for beginners to start their project with material design bootstrap framework for front end developement and django framework (python) for back-end developement.
+If you like the theme , please star this repo.
 
-This is me , sourav kumar from earth working on my portfolio website which is also my first project after learning web developement and i will keep enhancing this website with as much modern features and make it appealing till i say to myself -> "this is a miracle" !
-Any help or suggestions are always welcome and am ready to collab !
-
-please check out : https://souravs17031999.github.io
+log on to : https://souravs17031999.github.io/flightx/
 
 @creator - sourav kumar
