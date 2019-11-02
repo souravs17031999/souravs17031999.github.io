@@ -40,18 +40,42 @@ STARTS ANIMATION*/
   font-family: 'Exo 2', sans-serif;
 
 }
-
+h2{
+  text-align:center;
+  font-family: 'McLaren', cursive;
+}
 .navbar{
     background-color: #2b2a26;
 }
 #first {
   background-color: #e9f0ea;
 }
+#second {
+  background-color: #dfdff7;
+}
+#third {
+  background-color: #f2e0cb;
+}
 
 @media screen and (max-width: 600px) {
     .navbar-brand {
         height:40px;
 		width:40px;
+    }
+    .typewriter h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      white-space: normal; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .10em; /* Adjust as needed */
+      animation:
+        typing 2.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
     }
 }
 @media screen and (min-width:601px) and (max-width:768px){

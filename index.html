@@ -9,8 +9,11 @@
 	<link rel="icon" type="image/ico" href="logo.jpg" />
 
 	<!-- Font Awesome -->
+	<link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Material Design Bootstrap -->
@@ -46,10 +49,10 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Live showcase</a>
+				<a class="nav-link" href="#second">Projects</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Contact me</a>
+				<a class="nav-link" href="#fifth">Contact me</a>
 			</li>
 		</ul>
     <!-- Links -->
@@ -64,13 +67,13 @@
 <main>
 <!--Main container-->
 <br><br><br><br><br>
-<div class="container-fluid">
+<div class="container">
 
     <!--Grid row-->
     <div class="row" id = "first">
 
         <!--Grid column-->
-        <div class="col-md-9">
+        <div class="col-md-8">
 					<br><br>
 					<div class="typewriter">
 						<h1>Hello, I'm Sourav Kumar !</h1>
@@ -86,7 +89,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-3">
+        <div class="col-md-4">
 					<div class="view overlay z-depth-1-half">
   					<img src="souravkumar1.jpg" class="img-fluid z-depth-4 rounded" alt="">
   					<div class="mask rgba-green-light"></div>
@@ -96,52 +99,313 @@
 
     </div>
     <!--Grid row-->
-
+		<br><br>
     <!--Grid row-->
-    <div class="row">
+		<h2>Projects</h2>
+		<br>
+		<!-- projects section starts -->
+    <div class="row" id = "second">
+			<!-- Card deck -->
+			<div class="card-deck">
 
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-12">
+				<!-- Card -->
+				<div class="card mb-4">
 
+					<!--Card image-->
+				<div class="view overlay">
+					<img class="card-img-top" src="1.gif" alt="Card image cap">
+					<a href="#!">
+				<div class="mask rgba-white-slight"></div>
+					</a>
+				</div>
 
+		<!--Card content-->
+		<div class="card-body">
 
-        </div>
-        <!--Grid column-->
+		<!--Title-->
+		<h4 class="card-title">FLOWER-CLASSIFIER-WEBAPP</h4>
+		<!--Text-->
+		<p class="card-text">This is an neural network webapp visualizing the training of the network and testing accuracy of 98.6% accuracy.
+			The neural network uses pretrained resnet152 and then trained to classify images of flowers.
+			 It is built using Pytorch framework using Python as primary language. The webapp is built using flask.</p>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<a href="https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP" class="d-flex justify-content-end"><h5>Read more <i class="fa fa-caret-square-o-right"></i></h5></a>
+		</div>
 
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6">
+		</div>
+		<!-- Card -->
 
+		<!-- Card -->
+		<div class="card mb-4">
 
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="2.jpg" alt="Card image cap">
+				<a href="#!">
+					<div class="mask rgba-white-slight"></div>
+				</a>
+			</div>
 
-        </div>
-        <!--Grid column-->
+			<!--Card content-->
+			<div class="card-body">
 
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6">
+				<!--Title-->
+		<h4 class="card-title">SmogDetection</h4>
+		<!--Text-->
+		<p class="card-text">TEAM PROJECT SHOWCASE AT SPAIC 2019: SMOG DETECTION PROJECT AT #sg_planetearth Udacity Secure and Private AI.
+			The primary goal of the project is to avoid and help reduce rate of accidents in self driving vehicles by using this classifier model as one of the key components attached on traffic cams,
+			so that the vehicle can automatically be alerted about smog on the roads/streets (highways).
+		</p>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<a href="https://github.com/souravs17031999/SmogDetection" class="d-flex justify-content-end"><h5>Read more <i class="fa fa-caret-square-o-right"></i></h5></a>
 
+		</div>
 
+		</div>
+		<!-- Card -->
 
-        </div>
-        <!--Grid column-->
+		<!-- Card -->
+		<div class="card mb-4">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="3.jpg" alt="Card image cap">
+				<a href="#!">
+			<div class="mask rgba-white-slight"></div>
+			</a>
+		</div>
+
+		<!--Card content-->
+		<div class="card-body">
+
+		<!--Title-->
+		<h4 class="card-title">Neuralstyletransfer-showcase</h4>
+		<!--Text-->
+		<p class="card-text">This project aims to acheive neural style transfer using the algorithm given by Paper Image Style Transfer Using Convolutional Neural Networks by Gatys, implemented in Pytorch.</p>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<a href="https://github.com/souravs17031999/Neuralstyletransfer-showcase" class="d-flex justify-content-end"><h5>Read more <i class="fa fa-caret-square-o-right"></i></h5></a>
+
+		</div>
+
+		</div>
+		<!-- Card -->
+
+	</div>
+	<!-- Card deck -->
 
     </div>
     <!--Grid row-->
+		<br>
+		<div class="row" id = "third">
+			<!-- Card deck -->
+			<div class="card-deck">
+
+				<!-- Card -->
+				<div class="card mb-4">
+
+					<!--Card image-->
+				<div class="view overlay">
+					<img class="card-img-top" src="4.png" alt="Card image cap">
+					<a href="#!">
+				<div class="mask rgba-white-slight"></div>
+					</a>
+				</div>
+
+		<!--Card content-->
+		<div class="card-body">
+
+		<!--Title-->
+		<h4 class="card-title">Federatedencryption-showcase</h4>
+		<!--Text-->
+		<p class="card-text">This project aims to achieve federated learning training of model and then testing on encrypted dataset and model using pytorch and pysyft.
+		Federated Learning is a collaborative form of machine learning where the training process is distributed among many users and not based totally on a single server.
+		Here , the server is the main control for coordinating everything but most of the work for training process is done by federation of users.</p>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<a href="https://github.com/souravs17031999/Federatedencryption-showcase" class="d-flex justify-content-end"><h5>Read more <i class="fa fa-caret-square-o-right"></i></h5></a>
+		</div>
+
+		</div>
+		<!-- Card -->
+
+		<!-- Card -->
+		<div class="card mb-4">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="5.gif" alt="Card image cap">
+				<a href="#!">
+					<div class="mask rgba-white-slight"></div>
+				</a>
+			</div>
+
+			<!--Card content-->
+			<div class="card-body">
+
+				<!--Title-->
+		<h4 class="card-title">NeuralNets-Pure-Python</h4>
+		<!--Text-->
+		<p class="card-text">Objective :
+			This is a mini tutorial which aims to develop intuition about how matrices gets/changes/modifies their shapes as they go from layer to layer in a neural network.
+			This is a necessary concept to be understood in understanding how actually,
+			we are building more complex neural networks becasue layers stacked over one another keeps the matrices computations overly abstracted but getting deeper insight
+			into their shapes will help us in understanding how our inputs and outputs are related and also very useful while debugging the code as most of the errors occur due to
+			in consistent shapes of matrix.
+		</p>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<a href="https://github.com/souravs17031999/NeuralNets-Pure-Python" class="d-flex justify-content-end"><h5>Read more <i class="fa fa-caret-square-o-right"></i></h5></a>
+
+		</div>
+
+		</div>
+		<!-- Card -->
+
+		<!-- Card -->
+		<div class="card mb-4">
+
+			<!--Card image-->
+			<div class="view overlay">
+				<img class="card-img-top" src="6.jpg" alt="Card image cap">
+				<a href="#!">
+			<div class="mask rgba-white-slight"></div>
+			</a>
+		</div>
+
+		<!--Card content-->
+		<div class="card-body">
+
+		<!--Title-->
+		<h4 class="card-title">Project-Bike-Sharing-Prediction</h4>
+		<!--Text-->
+		<p class="card-text">
+			Repo for project - Predicting bike sharing patterns using neural networks https://udacity.com. Deep Learning Nanodegree Project - I.
+		</p>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<a href="https://github.com/souravs17031999/Project-Bike-Sharing-Prediction" class="d-flex justify-content-end"><h5>Read more <i class="fa fa-caret-square-o-right"></i></h5></a>
+
+		</div>
+
+		</div>
+		<!-- Card -->
+
+	</div>
+	<!-- Card deck -->
+
+
+    </div>
+
+    <!--Grid row-->
+		<br>
+		<h2>Acheivements</h2>
+    <br>
+		<div class = "row" id = "fourth">
+			<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="7.jpg"
+          alt="First slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="10.jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="9.png"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+		</div>
 
 </div>
 <!--Main container-->
 </main>
 <!--Main layout-->
 
-
+<hr>
 <!-- Footer -->
-<footer>
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4" id = "fifth">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">@ sourav kumar 2019</div>
+  <!-- Copyright -->
 
 </footer>
+<!-- Footer -->
 <!-- Footer -->
 
 
   <!-- SCRIPTS -->
-	<script type="text/javascript" src="js/mod.js"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
