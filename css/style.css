@@ -5,25 +5,42 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
     border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
+}
+/*start typewriter*/
+.writer h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-h2{text-align:center;font-family: cursive;}
-#first{background-color:#EBFEFB;}
-h3{text-align:center;}
-.btn btn-primary{text-align:center;}
-.p1{text-align:center;font-family: cursive;}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+/* stop typewriter*/
+.navbar{
+    background-color: #2b2a26;
+}
+#first {
+  background-color: #f5fcf7;
+}
 
 @media screen and (max-width: 600px) {
     .navbar-brand {
@@ -36,4 +53,4 @@ h3{text-align:center;}
         height:60px;
 		width:60px;
     }
-} 
+}
