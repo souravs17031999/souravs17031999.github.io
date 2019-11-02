@@ -18,12 +18,34 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+/*
+STARTS ANIMATION*/
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation:
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#introduction{
+  font-family: 'Exo 2', sans-serif;
+
+}
 
 .navbar{
     background-color: #2b2a26;
 }
 #first {
-  background-color: #f5fcf7;
+  background-color: #e9f0ea;
 }
 
 @media screen and (max-width: 600px) {
