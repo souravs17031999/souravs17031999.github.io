@@ -71,11 +71,11 @@ h2{
     opacity: 0.9;
 	box-shadow:5px 10px 40px grey;
 }
-.fa-facebook {
+.fa-github {
   background: #3B5998;
   color: white;
 }
-.fa-linkedin{
+.fa-twitter{
 	background:#007bb5;
 	color:white
 }
@@ -84,7 +84,7 @@ h2{
   color: white;
 }
 
-.fa-quora{
+.fa-medium{
 	background:#990f06;
 	color:white;
 }
