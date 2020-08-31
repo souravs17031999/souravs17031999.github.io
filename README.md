@@ -7,6 +7,6 @@ log on to : https://souravs17031999.github.io/
 
 Contact me at :
 
-Linkedin : https://www.linkedin.com/in/souravkumardlboy/
-Twitter : https://twitter.com/souravdlboy
-Medium : https://medium.com/@sauravkumarsct
+[Linkedin](https://www.linkedin.com/in/souravkumardlboy/)    
+[Twitter](https://twitter.com/souravdlboy)    
+[Medium](https://medium.com/@sauravkumarsct)    
